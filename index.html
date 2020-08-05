@@ -1,0 +1,345 @@
+<!doctype html>
+<html>
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <link rel="shortcut icon" href="public/img/favicon.ico">
+  <title>Music</title>
+  <!-- CSRF Token -->
+  <meta name="csrf-token" content="{{ csrf_token() }}">
+  <link rel="canonical" href="#">
+  <!-- Style -->
+  <link rel="stylesheet" href="public/css/owl.carousel.min.css">
+  <link rel="stylesheet" href="public/css/owl.theme.default.min.css">
+  <link rel="stylesheet" href="https://glyphsearch.com/bower_components/ionicons/css/ionicons.css">
+  <link rel="stylesheet" href="https://daneden.github.io/animate.css/animate.min.css">
+  <link rel="stylesheet" href="public/css/app.css">
+</head>
+
+<body id="app">
+  <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="mainNav">
+    <div class="container">
+      <a class="navbar-brand js-scroll-trigger" href="#app">MUSIC</a>
+      <button class="navbar-toggler collapsed" type="button" data-toggle="collapse" data-target="#navbarNav">
+        <span> </span>
+        <span> </span>
+        <span> </span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav mr-auto" style="width: 300px;">
+          <form class="input-group search-top">
+            <div class="input-group-prepend">
+              <span class="input-group-text" id="basic-addon1"><i class="ionicons ion-search"></i></span>
+            </div>
+            <input type="text" class="form-control" placeholder="Search music, album, artist" aria-label="Username"
+              aria-describedby="basic-addon1">
+          </form>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active">
+            <a class="nav-link js-scroll-trigger" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Genre</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Lyric</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">Blog</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link action" href="#">Login</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  <header id="home">
+    <div class="owl-home owl-carousel owl-theme">
+      <div class="item">
+        <img src="public/img/bg.jpg" alt="Image" class="img-fluid">
+        <div class="container">
+            <div class="caption">
+              <h3>ARIANA GRANDE</h3>
+              <h5>Thank You Next</h5>
+              <span>Albums</span>
+            </div>
+        </div>
+      </div>
+      <div class="item">
+        <img src="public/img/bg2.jpg" alt="Image" class="img-fluid">
+        <div class="container">
+            <div class="caption">
+              <h3>TAYLOR SWIFT</h3>
+              <h5>Reputation</h5>
+              <span>Albums</span>
+            </div>
+        </div>
+      </div>
+    </div>
+  </header>
+  <div class="best-album">
+    <div class="container">
+      <h3 class="heading">Featured <span>Popular Album</span></h3>
+      <div class="owl-albums owl-carousel owl-theme">
+        <div class="item">
+          <img src="public/img/album/1.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>Know <span>Jason Mraz</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/2.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>The Greatest<span>Various Artists</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/3.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>Songs for the Saints<span>Kenny Chesney</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/4.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>Gold: Greatest Hits<span>ABBA</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/5.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>reputation<span>Taylor Swift</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/6.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>Evolve<span>Imagine Dragons</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/7.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>Night Visions<span>Imagine Dragons</span></h4>
+          </div>
+        </div>
+        <div class="item">
+          <img src="public/img/album/8.jpg" alt="Image" class="img-fluid">
+          <div class="caption">
+            <h4>÷ (Deluxe)<span>Ed Sheeran</span></h4>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="container">
+    <div class="top-song row">
+      <div class="col-md-6">
+        <h3 class="heading">Daily <span>Popular Song</span></h3>
+        <ul class="list-song">
+          <li>
+            <img src="public/img/album/1.jpg" alt="1" class="thumbs">
+            <h5 class="song">Know</h5>
+            <h5 class="artist">Jason Mraz</h5>
+            <h5 class="duration">04:15</h5>
+            <a class="tri-menu" data-toggle="dropdown"><i class="ionicons ion-android-more-horizontal"></i></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Download</a>
+            </div>
+            <div class="play"><i class="ionicons ion-play"></i></div>
+          </li>
+          <li>
+            <img src="public/img/album/2.jpg" alt="1" class="thumbs">
+            <h5 class="song">The Greatest</h5>
+            <h5 class="artist">Various Artists</h5>
+            <h5 class="duration">04:15</h5>
+            <a class="tri-menu" data-toggle="dropdown"><i class="ionicons ion-android-more-horizontal"></i></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Download</a>
+            </div>
+            <div class="play">
+              <i class="ionicons ion-play"></i>
+            </div>
+          </li>
+          <li>
+            <img src="public/img/album/3.jpg" alt="1" class="thumbs">
+            <h5 class="song">Songs for the Saints</h5>
+            <h5 class="artist">Kenny Chesney</h5>
+            <h5 class="duration">04:15</h5>
+            <a class="tri-menu" data-toggle="dropdown"><i class="ionicons ion-android-more-horizontal"></i></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Download</a>
+            </div>
+            <div class="play">
+              <i class="ionicons ion-play"></i>
+            </div>
+          </li>
+          <li>
+            <img src="public/img/album/4.jpg" alt="1" class="thumbs">
+            <h5 class="song">Gold: Greatest Hits</h5>
+            <h5 class="artist">ABBA</h5>
+            <h5 class="duration">03:20</h5>
+            <a class="tri-menu" data-toggle="dropdown"><i class="ionicons ion-android-more-horizontal"></i></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Download</a>
+            </div>
+            <div class="play">
+              <i class="ionicons ion-play"></i>
+            </div>
+          </li>
+          <li>
+            <img src="public/img/album/5.jpg" alt="1" class="thumbs">
+            <h5 class="song">reputation</h5>
+            <h5 class="artist">Taylor Swift</h5>
+            <h5 class="duration">05:05</h5>
+            <a class="tri-menu" data-toggle="dropdown"><i class="ionicons ion-android-more-horizontal"></i></a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="#">Detail</a>
+              <a class="dropdown-item" href="#">Download</a>
+            </div>
+            <div class="play">
+              <i class="ionicons ion-play"></i>
+            </div>
+          </li>
+        </ul>
+      </div>
+      <div class="col-md-6">
+        <h3 class="heading">Award <span>Popular Artist</span></h3>
+        <div class="owl-artist owl-carousel owl-theme">
+          <div class="item text-center">
+            <img src="public/img/artist/ariana-grande.jpg" alt="Image" class="img-fluid">
+            <div class="caption">
+              <h4>Ariana Grande</h4>
+              <span>6 songs</span>
+            </div>
+            <button class="btn btn-outline-primary btn-sm">See Song</button>
+          </div>
+          <div class="item text-center">
+            <img src="public/img/artist/bts.jpg" alt="Image" class="img-fluid">
+            <div class="caption">
+              <h4>BTS</h4>
+              <span>10 songs</span>
+            </div>
+            <button class="btn btn-outline-primary btn-sm">See Song</button>
+          </div>
+          <div class="item text-center">
+            <img src="public/img/artist/imagine-dragons.jpg" alt="Image" class="img-fluid">
+            <div class="caption">
+              <h4>Imagine Dragons</h4>
+              <span>8 songs</span>
+            </div>
+            <button class="btn btn-outline-primary btn-sm">See Song</button>
+          </div>
+          <div class="item text-center">
+            <img src="public/img/artist/post-malone.jpg" alt="Image" class="img-fluid">
+            <div class="caption">
+              <h4>Post Malone</h4>
+              <span>9 songs</span>
+            </div>
+            <button class="btn btn-outline-primary btn-sm">See Song</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="row event">
+      <div class="col-md-9 mt-5">
+          <h3 class="heading">Upcoming<span>Events & Concert</span></h3>
+          <div class="year">2019</div>
+          <div class="owl-event owl-carousel owl-theme">
+            <div class="item">
+              <img src="public/img/event-1.jpg" alt="Image" style="width:400px;">
+              <div class="caption">
+                <h4>SENSPRESSION MUSIC CONCERT MALANG GRAHA CAKRAWALA UM</h4>
+                <h5>24<span><b>Senin</b>Maret</span></h5>
+                <div class="location">GRAHA CAKRAWALA UM<br>Jawa Timur</div>
+                <button class="btn btn-outline-primary mt-3">Ticket</button>
+              </div>
+            </div>
+            <div class="item">
+                <img src="public/img/event-2.jpg" alt="Image" style="width:400px;">
+                <div class="caption">
+                  <h4>ROSSA Live In Concert</h4>
+                  <h5>14<span><b>Kamis</b>Februari</span></h5>
+                  <div class="location">The Pallas<br>DKI Jakarta</div>
+                  <button class="btn btn-outline-primary mt-3">Ticket</button>
+                </div>
+              </div>
+              <div class="item">
+                  <img src="public/img/event-3.jpg" alt="Image" style="width:400px;">
+                  <div class="caption">
+                    <h4>SUBLIME 3.0</h4>
+                    <h5>05<span><b>Rabu</b>Maret</span></h5>
+                    <div class="location">Celebes Convention Centre<br>Sulawesi Selatan</div>
+                    <button class="btn btn-outline-primary mt-3">Ticket</button>
+                  </div>
+                </div>
+          </div>
+      </div>
+      <div class="col-md-3 mt-5">
+          <h3 class="heading">Hot<span>Youtube Videos</span></h3>
+          <iframe class="mb-2" src="https://www.youtube.com/embed/QYh6mYIJG2Y" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          <p>Cumque odit possimus ad, minima hic pariatur ipsam explicabo voluptatem debitis mollitia minus inventore doloribus error.</p>
+      </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12 mt-5">
+            <h3 class="heading"><span>Genre & Moods</span></h3>
+            <div class="big-icon"><i class="ionicons ion-ios-musical-notes"></i> </div>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Pop</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Rock</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Blues</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Classical</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Dance</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Electronics</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Hip-hop</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Jazz</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Latin</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Metal</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Party</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">R&B</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Electronics</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Hip-hop</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Jazz</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Blues</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Classical</a>
+            <a href="#" class="btn btn-secondary mr-1 mb-2">Dance</a>
+        </div>
+      </div>
+  </div>
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit possimus ad, minima hic pariatur ipsam
+          explicabo voluptatem debitis mollitia minus inventore doloribus error numquam dolores voluptatum in incidunt
+          tenetur.
+        </div>
+        <div class="col-md-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit possimus ad, minima hic pariatur ipsam
+          explicabo voluptatem debitis mollitia minus inventore doloribus error numquam dolores voluptatum in incidunt
+          tenetur.
+        </div>
+        <div class="col-md-3">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque odit possimus ad, minima hic pariatur ipsam
+          explicabo voluptatem debitis mollitia minus inventore doloribus error numquam dolores voluptatum in incidunt
+          tenetur.
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+  <script src="public/js/app.js"></script>
+</body>
+
+</html>
